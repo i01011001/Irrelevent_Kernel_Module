@@ -2,7 +2,7 @@
 
 #### What does it do?
 It copies a string to the kernal ring buffer when the module is inserted and 
-also when the modules is removed from the linux kernel. 
+also when the module is removed from the linux kernel. 
 
 #### How to Use it?
 1. Create and start a virtualenv using multipass or something else 
