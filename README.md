@@ -22,8 +22,6 @@
     ### to view the printed log
     sudo dmesg                  
     ```
-<div style="text-align: center;">
-!<img src="./image.png" height=400px align=center><img>
-</div>
+!<img src="./image.png" height=400px ></img>
 
 
