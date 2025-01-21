@@ -12,7 +12,7 @@ also when the modules is removed from the linux kernel.
     ### for debian users
     sudo apt install -y build-essential linux-headers-$(uname -r) kmod
     ```
-3. Clone the repo or better yet type the code down from `main.c + Makefile` on to a another file to the virtualenv or anywhere you like
+3. Clone the repo or better yet type the code down from `main.c + Makefile` to the virtualenv or anywhere you like
 4. Now use the following commands on the same directory as the code:
      ```bash   
     ### To build the kernal module
@@ -22,7 +22,7 @@ also when the modules is removed from the linux kernel.
     sudo insmod main.ko         
 
     ### To remove the kernal module
-    sudo remmod main             
+    sudo rmmod main             
 
     ### to print the kernal ring buffer plus the flag to clear the ring buffer
     sudo dmesg -c                  
